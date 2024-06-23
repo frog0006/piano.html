@@ -1,1 +1,1 @@
-A piano keyboard but backwards
+A piano keyboard but sideways
