@@ -9,8 +9,17 @@ window.onload = () => {
         let div = document.
         createElement("div");
         div.classList.add("key", index
-        < 10 ? "black-key" :
+        <= 10 ? "black-key" :
         "white-key");
+        //audio playing on click
+        const number = index <= 9 ?
+        "0" + index : index;
+        div.addEventListener("click",
+        () => {
+            new Audio('${base}key$
+            {number}.mp3').play();
+        }
+        )
         pianoContainer[0].appendChild
         (div);
     }
