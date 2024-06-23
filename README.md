@@ -1,1 +1,1 @@
-A piano keyboard but sideways
+An interactive piano keyboard
